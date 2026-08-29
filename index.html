@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SAP Business Portal</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+    <header class="topbar">
+        <h2>SAP Business Portal</h2>
+
+        <div>
+            <span>🔔</span>
+            <span>👤 Student</span>
+        </div>
+    </header>
+
+
+    <!-- Main Area -->
+    <div class="layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h3>MENU</h3>
+
+            <button>🏠 Dashboard</button>
+            <button onclick="showSales()">📦 Sales</button>
+            <button>🛒 Purchase</button>
+            <button>🏭 Production</button>
+            <button>📊 Reports</button>
+            <button>🤖 AI Assistant</button>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="content" id="mainContent">
+
+            <h1>Dashboard</h1>
+
+            <p>Welcome to the SAP Business Portal</p>
+
+
+            <!-- KPI Cards -->
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Total Orders</h3>
+                    <h2>120</h2>
+                </div>
+
+                <div class="card">
+                    <h3>Blocked Orders</h3>
+                    <h2>24</h2>
+                </div>
+
+                <div class="card">
+                    <h3>Revenue</h3>
+                    <h2>₹25L</h2>
+                </div>
+
+            </div>
+
+
+            <!-- Sales Orders -->
+            <div class="section">
+
+                <h2>Recent Sales Orders</h2>
+
+                <table>
+
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>SO1001</td>
+                        <td>ABC Ltd</td>
+                        <td>₹5,00,000</td>
+                        <td>Blocked</td>
+                    </tr>
+
+                    <tr>
+                        <td>SO1002</td>
+                        <td>XYZ Ltd</td>
+                        <td>₹8,00,000</td>
+                        <td>Released</td>
+                    </tr>
+
+                    <tr>
+                        <td>SO1003</td>
+                        <td>PQR Ltd</td>
+                        <td>₹3,00,000</td>
+                        <td>Blocked</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
